@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+        {
+            "name": "PHP",
+            "port": 9000,
+            "request": "launch",
+            "type": "php",
+        },
+        {
+            "name": "Siaupro Javascript",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://hml.siaupro.com/",
+            "webRoot": "${workspaceRoot}"
+        },
+        {
+            "name": "Launch localhost",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost/testecode/index.php/page",
+            "webRoot": "${workspaceFolder}/application/views"
+        },
+
+
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost/testecode/index.php/page",
+            "webRoot": "${workspaceFolder}"
+        }
+        
+    ]
+}

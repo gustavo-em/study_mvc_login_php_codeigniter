@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    background-color:blanchedalmond;
+    height: 200px;
+    width: 100px;
+}
+
+
+.form-btn {
+    color:brown;
+    width: 200px;
+}
