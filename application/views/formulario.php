@@ -11,15 +11,15 @@
 <body>
     <div class="container">
         <div class="form-box">
-            <form action="" method="post" class="estilizarElementos">
+            <form action="welcome_message.php" method="get" class="estilizarElementos">
                     <div class="item">
                         <h1><?php echo $nome; ?></h1>
                     </div>
                     <div class="item">
-                        <input type="text" name="username" class="form-input">
+                        <input type="text" name="usuario" placeholder="Digite o Usuário" class="form-input">
                     </div>
                     <div class="item">
-                        <input type="password" name="username" class="form-input">
+                        <input type="password" name="senha" placeholder="Digite sua Senha" class="form-input">
                     </div>
                     <div class="item">
                         <input type="submit" class="form-btn" id="form-btn">

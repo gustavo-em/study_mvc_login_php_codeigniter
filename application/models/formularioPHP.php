@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,16 +9,16 @@
 </head>
 <body>
     <?php
-    if(isset($_GET['usuario'])){
-        $usuario = $_GET['usuario'];
+    if(isset($_POST['usuario'])){
+        $usuario = $_POST['usuario'];
     }
-    if(isset($_GET['senha'])){
-        $senha = $_GET['senha'];
+    if(isset($_POST['senha'])){
+        $senha = $_POST['senha'];
     }
     ?>
-	<?php var_dump($_GET); ?>
 
 
-    <p><?php echo $usuario ?></p>
+    <p><?php echo $usuario; ?></p>
 </body>
 </html>
+
